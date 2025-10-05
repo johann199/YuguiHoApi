@@ -1,16 +1,25 @@
-package Duelo;
+package modelo;
 
 public class Monster {
+    private int id;
     private String name;
     private int atk;
     private int def;
     private String  urlImagen;
 
-    public Monster(String name, int atk, int def, String urlImagen) {
+    public Monster(int id, String name, int atk, int def, String urlImagen) {
         this.name = name;
         this.atk = atk;
         this.def = def;
         this.urlImagen = urlImagen;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getName() {
@@ -44,4 +53,6 @@ public class Monster {
     public void setUrlImagen(String urlImagen) {
         this.urlImagen = urlImagen;
     }
+
+
 }
