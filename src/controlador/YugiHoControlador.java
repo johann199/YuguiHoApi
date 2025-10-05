@@ -52,37 +52,37 @@ public class YugiHoControlador {
         }
 
         public void duelo(){
-            Monster cardsJugador, cardsMaquina;
-            int player, machine;
-            if (cardsJugador.getAtk() > cardsMaquina.getDef()){
-                cardsJugador = jugador;
-                cardsMaquina = maquina;
-                player = 1;
-                machine = 2;
-                JOptionPane.showMessageDialog(null, jugador.getName() + " Ataca primero");
-            } else if(cardsJugador.getDef() < cardsMaquina.getAtk()){
-                cardsJugador = maquina;
-                cardsMaquina = jugador;
-                player = 2;
-                machine = 1;
-                JOptionPane.showMessageDialog(null, maquina.getName() + " Ataca primero");
-            } else {
-                Random random = new Random();
-                if(random.nextBoolean()){
-                    cardsJugador = jugador;
-                    cardsMaquina = maquina;
-                    player = 1;
-                    machine = 2;
-                } else{
-                    cardsJugador = maquina;
-                    cardsMaquina = jugador;
-                    player = 2;
-                    machine = 1;
-                }
-                JOptionPane.showMessageDialog(null,"Mismo nivel de ataque" + jugador.getName() + " Ataca primero");
-            }
-            batalla(cardsJugador, cardsMaquina, player, machine);
-
+//            Monster cardsJugador, cardsMaquina;
+//            int player, machine;
+//            if (cardsJugador.getAtk() > cardsMaquina.getDef()){
+//                cardsJugador = jugador;
+//                cardsMaquina = maquina;
+//                player = 1;
+//                machine = 2;
+//                JOptionPane.showMessageDialog(null, jugador.getName() + " Ataca primero");
+//            } else if(cardsJugador.getDef() < cardsMaquina.getAtk()){
+//                cardsJugador = maquina;
+//                cardsMaquina = jugador;
+//                player = 2;
+//                machine = 1;
+//                JOptionPane.showMessageDialog(null, maquina.getName() + " Ataca primero");
+//            } else {
+//                Random random = new Random();
+//                if(random.nextBoolean()){
+//                    cardsJugador = jugador;
+//                    cardsMaquina = maquina;
+//                    player = 1;
+//                    machine = 2;
+//                } else{
+//                    cardsJugador = maquina;
+//                    cardsMaquina = jugador;
+//                    player = 2;
+//                    machine = 1;
+//                }
+//                JOptionPane.showMessageDialog(null,"Mismo nivel de ataque" + jugador.getName() + " Ataca primero");
+//            }
+//            batalla(cardsJugador, cardsMaquina, player, machine);
+//
         }
         public void batalla(Monster atacante, Monster defensor, int player, int machine){
             int atk = atacante.getDef();
