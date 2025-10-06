@@ -1,6 +1,10 @@
 # YuguiHoApi
+### Hecho por:
+#### Sara Sofia Sánchez - 2359506
+#### Johann Andrey Gonzalez - 2511006
 
 ## Instrucciones de Ejecución:
+
 1. Al iniciar el juego, encontrá una pantalla con un tablero que indica el area del jugador y el area de la maquina
 2. El jugador es el que debe generar sus cartar, en el boton elegir cartas
 ![img_5.png](img_5.png)
@@ -15,7 +19,9 @@
 ![img_9.png](img_9.png) ![img_10.png](img_10.png)
 7. El juego termina cuando ya un jugador ha ganado dos rondas, si queda en empate ambas cartas no van a seguir en el juego.
 ![img_11.png](img_11.png)
+
 ## Explicación del diseño:
+
 - Decicimos generar una GUI, que tenga tres Jpanes, uno con la información de la maquina, otro con la de la batalla y la ultima la del jugador
 - En zona de la maquina encontraremos: tres curadros para las cartas de cada moustro y un boton para generarlas de forma aleatoria:
 ![img_1.png](img_1.png)
