@@ -8,7 +8,8 @@
 3. Si se inician generando las de las maquina, solicitara que se genere primero las del jugador
 ![img_7.png](img_7.png)
 4. Cuando se generan las del jugador y las de la maquina, el duelo inicia al selecionar una carta por parte del jugador
-![img_8.png](img_8.png)
+
+   ![img_8.png](img_8.png)
 5. La maquina sacara una carta al azar de las que tiene en su mano e inicia la batalla automaticamente. 
 6. Las cartas que sean derrotadas se eliminan de la mano del jugador o de la maquina (depende de quien haya sido derrotado).
 ![img_9.png](img_9.png) ![img_10.png](img_10.png)
@@ -23,5 +24,5 @@
 - Por ultimo en la zona del jugador encontrarmos tres recuadros para las cartas y un boton para generarlas
 ![img_3.png](img_3.png)
 
-El diseño completo se ve de la siguiente forma:
+- El diseño completo se ve de la siguiente forma:
 ![img_4.png](img_4.png)
