@@ -20,7 +20,7 @@
 - En zona de la maquina encontraremos: tres curadros para las cartas de cada moustro y un boton para generarlas de forma aleatoria:
 ![img_1.png](img_1.png)
 - En la zona de batalla, encontraremos dos recuadros que indican la carta del jugador y de la maquina que estan compitiendo.
-![img_2.png](img_2.png)
+   ![img_2.png](img_2.png)
 - Por ultimo en la zona del jugador encontrarmos tres recuadros para las cartas y un boton para generarlas
 ![img_3.png](img_3.png)
 
