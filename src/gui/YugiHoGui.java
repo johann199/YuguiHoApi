@@ -73,8 +73,9 @@ public class YugiHoGui extends  JFrame{
         cardSlotsPanel.add(CardMaquina3);
 
         // botonesde cartas de la máquina y el de selección
-        btnCartasMaquina = createStyledButton("Ataque enemigo");
-        selecionarCartaMaquinaButton = createStyledButton("Generar cartas de la maquina");
+        btnCartasMaquina = createStyledButton(" Generar cartas maquina");
+        btnCartasMaquina.setPreferredSize(new Dimension(150, 40));
+        //selecionarCartaMaquinaButton = createStyledButton("Ataque enemigo");
 
         // zona de la maquina
         JPanel machineZone = new JPanel(new BorderLayout(10, 0));
@@ -85,7 +86,7 @@ public class YugiHoGui extends  JFrame{
         JPanel machineButtonsPanel = new JPanel(new GridLayout(1, 2, 10, 0));
         machineButtonsPanel.setBackground(DARK_BLUE);
         machineButtonsPanel.add(btnCartasMaquina);
-        machineButtonsPanel.add(selecionarCartaMaquinaButton);
+        //machineButtonsPanel.add(selecionarCartaMaquinaButton);
         machineZone.add(machineButtonsPanel, BorderLayout.EAST);
 
         machineZone.setBorder(BorderFactory.createTitledBorder(
@@ -123,10 +124,10 @@ public class YugiHoGui extends  JFrame{
         duelZone.add(monsterPanel, BorderLayout.CENTER);
 
 
-        JPanel buttonWrapper = new JPanel(new FlowLayout(FlowLayout.CENTER));
-        buttonWrapper.setBackground(DARK_BLUE);
-        buttonWrapper.add(btnDuelo);
-        duelZone.add(buttonWrapper, BorderLayout.SOUTH);
+//        JPanel buttonWrapper = new JPanel(new FlowLayout(FlowLayout.CENTER));
+//        buttonWrapper.setBackground(DARK_BLUE);
+//        buttonWrapper.add(btnDuelo);
+//        duelZone.add(buttonWrapper, BorderLayout.SOUTH);
 
         return duelZone;
     }
